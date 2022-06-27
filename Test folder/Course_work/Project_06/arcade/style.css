@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(117, 178, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #board {
+    background-color: rgba(0, 0, 0, 0.853);
+    display: grid;
+    grid-template-columns: repeat(25, 1fr);
+    grid-template-rows: repeat(25, 1fr);
+    border-style: solid; color: aliceblue;
+    height: 90vmin;
+    width: 90vmin; */
+
+table {
+    background-color: rgba(0, 0, 0, 0.889);
+    border-style: 1px; color: aliceblue;
+    height: 90vmin;
+    width: 90vmin;
+}   
+
+tr, td {
+    border: 1px solid aliceblue;
+}
+
+.snake {
+    background-color: rgb(117, 178, 231);
+}
+
+#apple {
+    background-color: goldenrod;
+}
