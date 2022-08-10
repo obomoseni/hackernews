@@ -193,24 +193,7 @@ function deleteSnake() {
 
 let started = true;
 
-// function endGame() {
-//     if (gameState.snake.head[0] == gameState.snake.body[gameState.snake.body.length - 1][0] && gameState.snake.head[1] == gameState.snake.body[gameState.snake.body.length - 1][1]) {
-//         clearInterval(snakeInterval);
-//         document.getElementById('best-score').innerHTML = 'Best: ' + score;
-//         alert('Game over');
-//     } else if (gameState.snake.head[0] == -1 || gameState.snake.head[1] == -1) {
-//         clearInterval(snakeInterval);
-//         document.getElementById('best-score').innerHTML = 'Best: ' + score;
-//         alert('Game over');
-//     } else if (gameState.snake.head[0] == 15 || gameState.snake.head[1] == 15) {
-//         clearInterval(snakeInterval);
-//         document.getElementById('best-score').innerHTML = 'Best: ' + score;
-//         alert('Game over');
-//     }
-// }
 
-
-// write functions
 
 
 
