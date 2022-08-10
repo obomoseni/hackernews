@@ -1,7 +1,7 @@
 const board = document.querySelector('#board');
 const table = document.createElement('table');
 const start = document.getElementById('start');
-
+const reset = document.getElementById('reset');
 
 function makeBoard() {
 
@@ -34,6 +34,7 @@ let gameState = {
     gameStart: false,
     direction: '38'
 }
+
 function makeInitialGameState() {
 
     makeBoard()
@@ -49,6 +50,7 @@ function makeInitialGameState() {
     drawApple()
 
     gameState.speed = 1000
+
 }
 
 function snakeCollision() {

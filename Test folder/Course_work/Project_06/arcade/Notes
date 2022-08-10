@@ -14,4 +14,32 @@
 //     }
 // }
 
-// 
+// reset button and call build initial state
+// unshift apple into the body
+// increase length of body when we eat the apple
+
+// function deleteBoard() {
+//     for (let x = 0; x < 15; x++) {
+//         const row = document.removeChild('id');
+//         for (let y = 0; y < 15; y++) {
+//             const column = document.removeChild('id');
+//             row.removeAttribute(column);
+//         }
+//         table.removeAttribute(row);
+//     }
+//     board.removeAttribute(table);
+// }
+
+// reset.onclick = () => {
+//     gameState.gameReset = false;
+//     buildInitialGameState();
+// }
+
+// function buildInitialGameState() {
+//     deleteBoard();
+//     deleteSnake();
+//     deleteApple();
+//     makeBoard();
+//     drawSnake();
+//     drawApple();
+// }
