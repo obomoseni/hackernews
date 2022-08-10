@@ -94,7 +94,7 @@ function eatingApple() {
             deleteApple();
             gameState.apple[0] = Math.floor(Math.random() * 15);
             gameState.apple[1] = Math.floor(Math.random() * 15);
-            console.log(apple);
+            console.log(gameState.apple);
             drawApple();
             score++
             document.getElementById('current-score').innerHTML = 'Now: ' + score;
